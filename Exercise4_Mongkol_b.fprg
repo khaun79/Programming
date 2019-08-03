@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ROG"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2562-08-03 09:19:57 PM"/>
+        <attribute name="created" value="Uk9HO0xBUFRPUC1DNUNTQ01GUDsyNTYyLTA4LTAzOzA1OjIzOjE5IFBNOzI1OTU="/>
+        <attribute name="edited" value="Uk9HO0xBUFRPUC1DNUNTQ01GUDsyNTYyLTA4LTAzOzA4OjU5OjIzIFBNOzM7MjcxMg=="/>
+        <attribute name="edited" value="a2hhdW47S0hBVU4tSDhUUjdGVU07MjU2Mi0wOC0wMzswOToxOTo1NyBQTTsxOzI5NDU="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="FE" type="Real" array="False" size=""/>
+            <declare name="GB" type="Real" array="False" size=""/>
+            <declare name="ICS" type="Real" array="False" size=""/>
+            <declare name="CR" type="Real" array="False" size=""/>
+            <assign variable="FE" expression="60"/>
+            <assign variable="GB" expression="65"/>
+            <assign variable="ICS" expression="70"/>
+            <assign variable="CR" expression="75"/>
+            <output expression="&quot;------Your Score------&quot;" newline="True"/>
+            <output expression="&quot;Foundation English :&quot;&amp;FE" newline="True"/>
+            <output expression="&quot;General Business :&quot;&amp;GB" newline="True"/>
+            <output expression="&quot;Introduction to Computer systems:&quot;&amp;ICS" newline="True"/>
+            <output expression="&quot;Computer Programming:&quot;&amp;CR" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
